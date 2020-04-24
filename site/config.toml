@@ -1,0 +1,25 @@
+baseurl = "https://inajob.netlify.com"
+languageCode = "ja-JP"
+title = "inajobのいろいろレビュー"
+
+theme="theer"
+
+[params]
+ShareTo = ["Twitter", "Facebook", "Pocket", "Hatena"]
+UseTwitterCard = true
+Twitter = "ina_ani"
+Image = "/img/cover.png"
+
+[related]
+
+threshold = 80
+includeNewer = false
+toLower = false
+
+[[related.indices]]
+name  = "title"
+weight = 50
+
+[[related.indices]]
+name  = "tags"
+weight = 100
